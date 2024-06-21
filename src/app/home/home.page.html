@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      App BMI
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding ion-text-center" [fullscreen]="true">
+  <img src="../../assets/img/BMI.png" style="width: 42%;">
+    <ion-card color="success" class="ion-padding">
+
+      <ion-item color="dark">
+        <ion-input label="กรอกน้ำหนัก" placeholder="kg"></ion-input>
+      </ion-item>
+<br>
+      <ion-item color="dark">
+        <ion-input label="กรอกส่วนสูง" placeholder="cm"></ion-input>
+      </ion-item>
+<br>
+      <ion-button size="large" color="warning" expand="block" shape="">คำนวณ</ion-button>
+    </ion-card>
+
+    <ion-card color="primary">
+      <ion-card-header>
+        <ion-card-subtitle>ผลลัพธ์</ion-card-subtitle>
+        <ion-card-title>18.5</ion-card-title>
+      </ion-card-header>
+    </ion-card>
+
+    <ion-card color="danger">
+      <ion-card-header>
+        <ion-card-subtitle>แปรผล</ion-card-subtitle>
+        <ion-card-title>อยู่ในเกณฑ์ปกติ</ion-card-title>
+      </ion-card-header>
+    </ion-card>
+
+</ion-content>
